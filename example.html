@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测试</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+function chalk (css,string,data=''){
+	let cssString = '';
+	if(typeof css == 'string'){
+		cssString = 'color:'+css;
+	}else{
+		for(let key in css){
+			cssString = cssString + key + ':' + css[key]+';'
+		}
+	}
+	return console.log('%c'+string,cssString,data)
+}
+	chalk('red','测试');
+	chalk({
+		'background-color':'blue',
+		'color':'yellow',
+		'font-size':'56px',
+	},'测试','我是数据');
+</script>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "chalk-web",
+  "version": "1.0.0",
+  "description": "make console.log colorful in browser",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://magic-zhu@github.com/Magic-zhu/chalk-web.git"
+  },
+  "keywords": [
+    "chalk",
+    "color",
+    "styles",
+    "browser",
+    "console"
+  ],
+  "author": "magic-zhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Magic-zhu/chalk-web/issues"
+  },
+  "homepage": "https://github.com/Magic-zhu/chalk-web#readme"
+}
