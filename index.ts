@@ -1,5 +1,5 @@
 
-function chalk (css,string,data=''){
+function chalk (css:string|Object,string:string,data:any='',...args:any){
 	let cssString = '';
 	if(typeof css == 'string'){
 		cssString = 'color:'+css;
@@ -8,7 +8,7 @@ function chalk (css,string,data=''){
 			cssString = cssString + key + ':' + css[key]+';'
 		}
 	}
-	return console.log('%c'+string,cssString,data)
+	return console.log('%c'+string,cssString,data,...args)
 }
 
-module.exports = chalk;
+export default chalk

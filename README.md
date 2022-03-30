@@ -1,7 +1,12 @@
 ## 使用说明
 
+
+### 1.0.1
+
++ ADD：support for typescript
+
 ```js
-	var chalk = require('chalk-web');
+	import chalk from 'chalk-web'
 	chalk('red','测试');
 	chalk({
 		'background-color':'blue',
